@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background: #E3E6E6;
+}
+/* Nav -Brand log section */
+#navbar {
+    height: 60px;
+    background: #0F1111;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.border:hover {
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 2px;
+}
+.nav_logo {
+    height: 50px;
+    width: 110px;
+}
+.logo {
+    background-image: url("img/amazon-logo-png.jpg");
+    background-size: cover; 
+    height: 43px;
+    width: 100%;
+    padding-top: 1px;
+    margin-left: 5px;
+    display: flex;
+    position: static;
+    cursor: pointer;
+    /* border: 2px solid #fff; */
+}
+
+/* Nav- Delivery location setion*/
+.destination {
+    height: 47px;
+    width: 111px;
+    padding: 0px 5px;
+    margin: 5px 2px 5px 5px;
+    /* border: 2px solid #fff; */
+    cursor: pointer;
+}
+.one {
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 10px;
+    padding: 4px;
+    
+}
+.icon {
+    font-size: 14px;
+    display: flex;
+}
+.bold {
+    margin-left: 2px;
+}
+/* Search bar section */
+.navsearch {
+    display:flex;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 780px;
+    height: 45px;
+    margin-left: 5px;
+}
+.nav-select {
+    height: 40px;
+    width: 60px;
+    font-size: 12px;
+    padding: 3px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #f3f3f3;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.nav-input {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 10px;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+}
+.search-icon {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color:#0F1111;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #febd68;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navsearch:hover {
+    border: 2px solid orange;
+}
+/* Country nav bar */
+#country {
+    font-size: .85rem;
+    font-weight: 700;
+    background: #0F1111;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Sign in section */
+.sign-in {
+   font-size: .68rem;
+}
+.sec-sign {
+    font-size: .85rem;
+    font-weight: 700;
+    background: #0F1111;
+    outline: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.return {
+    font-size: .65rem;
+}
+.sec-return {
+    font-size: .85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Cart navigation bar */
+.nav-cart {
+    font-size: .85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-cart i{
+    font-size: 30px;  
+}
+
+/* Panel section */
+.panel {
+    height:39px;
+    background: #232F3e;
+    display: flex;
+    padding: 8px 9px;
+    color: #fff;
+    cursor: pointer;
+    justify-content:space-evenly;
+    align-items: center;
+    font-weight: 700;
+}
+.panel a {
+    color:#fff;
+    text-decoration: none;
+}
+.service a {
+    font-size: .9rem;
+    color:#fff;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: normal;
+}
+.service {
+    width:95%;
+}
+
+/* Hero Panel */
+.hero-section {
+    background-image: url("img/hero_img.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width:94%;
+    margin-left: 45px;
+    cursor: pointer;
+}
+/* Shopping section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height:444px;
+    width:90%;
+    margin:-40px 0px 60px 75px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    justify-content: space-between;   
+}
+.box {
+    height: 380px;
+    width: 25%;
+    /* border: 1px solid black; */
+    background: #fff;
+    padding: 20px 0 15px;
+    
+}
+.all-img {
+    height: 303px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+}
+
+.h2 {
+    font: 21px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.a {
+    font-size: 13px;
+    color: #007185;
+    padding: 0 20px;
+    cursor: pointer;
+    
+}
+.a:hover {
+    text-decoration: underline;
+}
+.a:focus {
+    color:#febd68;
+}
+
+/* Footer- section 1*/
+footer {
+    margin-top: 30px;
+}
+
+.section-1 {
+    height: 124px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.one > p {
+    color:#000;
+    font-size: 13px;
+    text-align: center;
+}
+.one button {
+    color: #000;
+    background: #febd68;
+    font-size: 12px;
+    font-weight: 700;
+    width: 230px;
+    height: 28px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.one a {
+    color: #007185;
+    text-decoration: none;
+    font-size: 11px;
+}
+.one a:hover {
+    color: red;
+}
+
+.section-2 {
+    background-color: #37475A;
+    height: 50px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-3 {
+    height: 320px;
+    background: #232f3e;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(68, 66, 66, 0.899);
+    padding-top: 40px;
+}
+
+h4 {
+    font-size: 16px;
+}
+ul a{
+   display: block;
+   color:#DDD;
+   text-decoration: none;
+   padding: 5px;
+   
+}
+.section-4 {
+    background: #232F3e;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-logo {
+    background-image: url("img/amazon-logo-png.jpg");
+    background-size: cover;  
+    height: 43px;
+    width: 100px;
+
+}
+/* Copyright section */
+
+.copyright {
+    height: 80px;
+    color: white;
+    background: #131A22;
+    padding: 10px 0 30px ;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+.copyright a {
+    padding: 07px;
+}
+.copyright a:hover{
+    text-decoration: underline;
+}
